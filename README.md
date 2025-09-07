@@ -7,3 +7,4 @@ i struggled at first with having the blank star image respond to the emotion lis
 so i'd say that being able to learn more about javascript little by little will help me retain more information in the long run.
 
 ### this was made apart of hack club's athena award! 
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
