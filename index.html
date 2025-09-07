@@ -9,8 +9,8 @@
 
    
     <div class="introTable">
-        <h1>welcome to starry!</h1>
-        <h3>feeling a certain way today? track it here:</h3>
+        <h1>welcome to starry!  ₊˚✩ ﾟ.</h1>
+        <h3>feeling a certain way today? track it here!</h3>
     </div>
 
 
@@ -18,13 +18,13 @@
         <div class="moodTable">
 
             <h3>feeling...</h3>
-            <img>
-            <p>insertMood</p>
+            <img id="starImage" src="ASSETS\blankstar.png">
+            <p id="theMood">...</p>
 
             <div class="describe">
 
                 <h3>wanna write it down?</h3>
-                    <p>type here...</p>
+                <input type="text" id="myInput" name="userName" maxlength="70" placeholder="start typing...">
 
             </div>
 
@@ -34,40 +34,43 @@
 
             <h3>emotion list</h3>
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\pinkstar.png">
+            
+            <button onClick="changeImage('ASSETS/pinkstar.png')" id=one1 class="moods">
+                <img src="ASSETS\pinkstar.png">
             </button>
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\orangestar.png">
+            <button onClick="changeImage('ASSETS/orangestar.png')" id=one2 class="moods">
+                <img src="ASSETS\orangestar.png">
             </button>
            
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\yellowstar.png">
+            <button onClick="changeImage('ASSETS/yellowstar.png')" id=one3 class="moods">
+                <img src="ASSETS\yellowstar.png">
             </button>
 
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\greenstar.png">
+            <button onClick="changeImage('ASSETS/greenstar.png')" id=one4 class="moods">
+                <img src="ASSETS\greenstar.png">
             </button>
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\bluestar.png">
+            <button onClick="changeImage('ASSETS/bluestar.png')" id=one5 class="moods">
+                <img src="ASSETS\bluestar.png">
             </button>
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\purplestar.png">
+            <button onClick="changeImage('ASSETS/purplestar.png')" id=one6 class="moods">
+                <img src="ASSETS\purplestar.png">
             </button>
 
-            <button class="moods">
-                <img src="C:\visual studio projects!\star mood tracker\ASSETS\whitestar.png">
+            <button onClick="changeImage('ASSETS/whitestar.png')" id=one7 class="moods">
+                <img src="ASSETS\whitestar.png">
             </button>
 
 
         </div>
 
     </div>
-    
+
+    <script src="script.js"></script>
+
 </body>
 </html>
