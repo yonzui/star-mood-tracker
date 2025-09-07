@@ -3,11 +3,6 @@
     src: url('FONTS/rainyhearts.ttf');
 }
 
-@font-face {
-    font-family: cafe;
-    src: url('FONTS/cafe.ttf');
-}
-
 body {
     background-image: url("ASSETS/polkaBG.jpeg");
     background-repeat: no-repeat;
@@ -27,15 +22,22 @@ body {
     }
 
 
+    h1 {
+        font-size: 2.7em;
+    }
 
+    h3 {
+        font-size: 1.3em;
+    }
 
-
-
+    p {
+        font-size: 1.3em;
+    }
 
 /* TABLES */
 
 .introTable {
-    margin: 2% 20% 0;
+    margin: 4% 20% 0;
     border:9px double;
     border-radius: 30px;
     border-color:black;
@@ -72,9 +74,6 @@ body {
 
 
 
-
-
-
 /* IMAGES */
 
 .moods {
@@ -85,6 +84,22 @@ body {
     .moods img {
         width:50%;
         margin: -10%;
-        box-shadow: 0 4px 4px darkgray;
         display: inline-block;
     }
+
+#starImage {
+    width: 50%;
+    margin: -10% 0 -10% 0;
+}
+
+/* TEXTBOX */
+
+input {
+
+    font-family: "rainyhearts";
+    margin: 0 2% 4%;
+    width: 95%;
+    height: auto;
+    font-size: 1.3em;
+
+}
