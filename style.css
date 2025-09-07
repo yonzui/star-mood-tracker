@@ -3,6 +3,11 @@
     src: url('FONTS/rainyhearts.ttf');
 }
 
+@font-face {
+    font-family: cafe;
+    src: url('FONTS/cafe.ttf');
+}
+
 body {
     background-image: url("ASSETS/polkaBG.jpeg");
     background-repeat: no-repeat;
@@ -21,6 +26,9 @@ body {
         align-items: center;
     }
 
+    .introTable  h1 {
+        margin-top: 1%;
+    }
 
     h1 {
         font-size: 2.7em;
@@ -37,7 +45,7 @@ body {
 /* TABLES */
 
 .introTable {
-    margin: 4% 20% 0;
+    margin: 3% 20% 0;
     border:9px double;
     border-radius: 30px;
     border-color:black;
@@ -69,6 +77,9 @@ body {
 .allTables {
     display: flex;
 }
+
+
+
 
 
 
