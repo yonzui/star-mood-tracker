@@ -1,0 +1,90 @@
+@font-face {
+    font-family: rainyhearts;
+    src: url('FONTS/rainyhearts.ttf');
+}
+
+@font-face {
+    font-family: cafe;
+    src: url('FONTS/cafe.ttf');
+}
+
+body {
+    background-image: url("ASSETS/polkaBG.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* TEXT */
+
+    .introTable h1, h3, p {
+        font-family: "rainyhearts";
+        margin-left: 2%;
+    }
+
+    .emotionTable h3 {
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+/* TABLES */
+
+.introTable {
+    margin: 2% 20% 0;
+    border:9px double;
+    border-radius: 30px;
+    border-color:black;
+    background-color:rgb(249, 249, 249);
+    box-shadow: 0 4px 4px darkgray;
+}
+
+
+.moodTable {
+    margin: 2% 0 2% 20%;
+    border:9px double;
+    border-radius: 30px;
+    border-color:rgb(0, 0, 0);
+    background-color:rgb(249, 249, 249);
+    box-shadow: 0 4px 4px darkgray;
+    width: 90%;
+}
+
+.emotionTable {
+    margin: 2% 20% 2% 2%;
+    border:9px double;
+    width: 20%;
+    border-radius: 30px;
+    border-color:rgb(0, 0, 0);
+    background-color:rgb(249, 249, 249);
+    box-shadow: 0 4px 4px darkgray;
+}
+
+.allTables {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* IMAGES */
+
+.moods {
+    background-color: transparent;
+    border: none;
+}
+
+    .moods img {
+        width:50%;
+        margin: -10%;
+        box-shadow: 0 4px 4px darkgray;
+        display: inline-block;
+    }
